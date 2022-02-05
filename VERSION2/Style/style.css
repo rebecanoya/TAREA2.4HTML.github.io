@@ -1,3 +1,6 @@
+body{
+background-color: bisque;
+}
 table,
 tr,
 td,
@@ -11,30 +14,131 @@ caption {
     font-size: 40px;
 }
 
-section{
-background-color: aqua;
+header {
+    border: 2px black solid;
+}
+
+section {
+    top: 0;
+    padding: 1%;
+    border: 2px black solid;
 
 }
 
-.objetopersonaje{
-background-color: brown;
-width: 33%;
-text-align: justify;
+.objetopersonaje {
+    width: 33%;
+    text-align: justify;
 
 }
 
-h3{
+@font-face {
+    font-family: Luxurious;
+    src: url(../fonts/LuxuriousRoman-Regular.ttf);
+}
+
+@font-face {
+    font-family: Yanone;
+    src: url(../fonts/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Abril;
+    src: url(../fonts/AbrilFatface-Regular.ttf);
+}
+
+
+
+h1 {
+    font-size: 80px;
+    font-family: Abril;
+    text-align: center;
+
+}
+
+.resumen {
+
+    padding-bottom: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    font-family: Abril;
+    text-align: center;
+
+}
+
+h3 {
     font-size: 35px;
+    font-family: Luxurious;
+    text-align: center;
 }
 
-h4{
-font-size: 25px;
+h4 {
+    font-size: 25px;
+    font-family: Yanone;
+    text-align: center;
 
 }
-.grupopersonajes{
-display:flex;
-flex-direction: row;
-flex-wrap: wrap;
+
+.grupopersonajes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.titulomenu {
+    font-size: 35px;
+    font-family: Luxurious;
+    text-align: center;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.titulomenu:hover .menucontainer {
+
+    display: flex;
+
+}
+
+.menucontainer {
+    background: rgb(255, 194, 108);
+    background: radial-gradient(circle, rgba(255, 194, 108, 1) 0%, rgba(249, 246, 216, 1) 100%);
+    opacity: 0.8;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 25px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.datos {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+
+
+}
+
+.centrar{
+
+    display: flex;
+    justify-content: center;
+}
+
+.separar{
+display: flex;
 justify-content: space-evenly;
+}
 
+img{
+    border: 2px black solid;
+}
+
+footer{
+    text-align: center;
 }
