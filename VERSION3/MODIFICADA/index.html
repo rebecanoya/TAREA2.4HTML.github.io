@@ -1,148 +1,332 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Lucy</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Rebeca Noya Fernandez">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: "Raleway", sans-serif
+    }
 </style>
+
 <body class="w3-light-grey">
 
-<!-- w3-content defines a container for fixed size centered content, 
+    <!-- w3-content defines a container for fixed size centered content, 
 and is wrapped around the whole page content, except for the footer in this example -->
-<div class="w3-content" style="max-width:1400px">
+    <div class="w3-content" style="max-width:1400px">
 
-<!-- Header -->
-<header class="w3-container w3-center w3-padding-32"> 
-  <h1><b>MY BLOG</b></h1>
-  <p>Welcome to the blog of <span class="w3-tag">unknown</span></p>
-</header>
+        <!-- Header -->
+        <header class="w3-container w3-center w3-padding-32">
+            <h1><b>Lucy</b></h1>
+            <p>Lucy, una joven que ejerce de 'mula' para unos narcotraficantes, adquiere poderes
+                sobrenaturales tras
+                romperse
+                una de las bolsas de droga que transporta y absorber los estupefacientes.</p>
+        </header>
 
-<!-- Grid -->
-<div class="w3-row">
+        <!-- Posts -->
+        <div class="w3-card w3-margin">
+            <div class="w3-container w3-padding">
+                <h4>Menu</h4>
+            </div>
+            <ul class="w3-ul w3-hoverable w3-white">
+                <li class="w3-padding-16">
+                    <a href="#datosgenerales">Datos Generales</a>
 
-<!-- Blog entries -->
-<div class="w3-col l8 s12">
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-    <img src="/w3images/woods.jpg" alt="Nature" style="width:100%">
-    <div class="w3-container">
-      <h3><b>TITLE HEADING</b></h3>
-      <h5>Title description, <span class="w3-opacity">April 7, 2014</span></h5>
-    </div>
+                </li>
+                <li class="w3-padding-16">
+                    <a href="#director">Director</a>
 
-    <div class="w3-container">
-      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <div class="w3-row">
-        <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
+                </li>
+                <li class="w3-padding-16">
+                    <a href="#personajes">Personajes</a>
+
+                </li>
+                <li class="w3-padding-16">
+                    <a href="#plataformasstreaming">Plataformas Streaming</a>
+
+                </li>
+                <li class="w3-padding-16">
+                    <a href="#media">Media</a>
+
+                </li>
+                <li class="w3-padding-16">
+                    <a href="#opinion">Opinion</a>
+
+                </li>
+                <li class="w3-padding-16">
+                    <a href="#informacionadicional">Informacion Adicional</a>
+
+                </li>
+                <li class="w3-padding-16">
+                    <a href="#behindthescenes">Behind the scenes</a>
+                </li>
+
+            </ul>
         </div>
-        <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+
+        <!-- Grid -->
+        <div id="datosgenerales" class="w3-row">
+
+            <!-- Blog entries -->
+            <div class="w3-col l8 s12">
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    <img src="/Img/macaco.jpg"" alt=" macaco" style="width:100%">
+                    <div class="w3-container">
+                        <h3><b>Datos Generales</b></h3>
+                    </div>
+
+                    <div class="w3-container">
+                        <div>
+                            <ul>
+                                <li>Fecha de estreno: 22 de agosto de 2014 (España)</li>
+                                <li>Director: Luc Besson </li>
+                                <li>Recaudación: 463,4 millones USD</li>
+                                <li>Guion: Luc Besson</li>
+                                <li> Nominaciones: Premio de la Crítica Cinematográfica a la mejor actriz de acción</li>
+                                <li>Idiomas: Francés, Italiano, Inglés, Idioma español, Coreano, Mandarín</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white" id="personajes">
+                    <div class="w3-container">
+                        <h3><b>Personajes</b></h3>
+                        <div>
+                            <h4>Lucy (Scarlett Johansson)</h4>
+
+                            <p>Lucy es el personaje principal de la película. Se trata de una joven que ejerce de mula y
+                                adquiere
+                                poderes sobrenaturales gracias a estas bolsas.</p>
+                            <input type="image" <img src="Img/lucy.jpg" alt="lucy" height="250px">
+
+                        </div>
+                        <div>
+
+                            <h4>Profesor Samuel Norman (Morgan Freeman)</h4>
+
+                            <p>Samuel Morgan es el profesor de universidad e investigador el que acude Lucy en busca de
+                                ayuda. Él
+                                recopila toda la información que Lucy le brinda.</p>
+                            <img src="Img/samuel.jpg" alt="samuel" height="250px">
+
+                        </div>
+                        <div>
+
+                            <h4>Sr. Jang (Choi Min-sik)</h4>
+
+                            <p>Sr.Jang es el "malo" de la película. Este quiere recuperar sus bolsas de droga que tenía
+                                Lucy en su
+                                estómago</p>
+                            <input type="image" <img src="Img/jang.jpg" alt="jang" height="250px">
+                        </div>
+                        <div>
+                            <h4>Pierre Del Rio (Amr Waked)</h4>
+
+                            <p>Pierre Del Rio es un policía el cual se enamora de Lucy, y la acompaña en la mayoría del
+                                tiepo de la
+                                película</p>
+                            <img src="Img/pierre.jpg" alt="pierre" height="250px">
+
+                        </div>
+                        <div>
+
+                            <h4>Profesor (Bertrand Quoniam)</h4>
+
+                            <p>Profesor es uno de los compañeros de Samuel Morgan, el cual reune a varios científicos
+                                para poder
+                                entener
+                                la información que les brinda Lucy </p>
+                            <img src="Img/profesor.jpg" alt="profesor" height="250px">
+                        </div>
+                    </div>
+                </div>
+                <!-- END BLOG ENTRIES -->
+            </div>
+
+            <!-- Introduction menu -->
+            <div class="w3-col l4" id="director">
+                <!-- About Card -->
+                <div class="w3-card w3-margin w3-margin-top">
+                    <div class="w3-container w3-white">
+                        <h4><b>Director</b></h4>
+                        <li>Luc Besson es un director de cine, guionista, escritor y productor francés.
+                            <div>Nació el 18 de marzo de 1959 (62 años).</div>
+                            <div>Entre sus obras se destacan:
+                                <ol>
+                                    <li>El gran azul</li>
+                                    <li>Nikita</li>
+                                    <li>Léon</li>
+                                    <li>El quinto elemento</li>
+                                    <li>Arthur y los Minimoys</li>
+                                    <li>The Transporter</li>
+                                    <li>Lucy</li>
+                                    <li>Valerian y la ciudad de los mil planetas</li>
+                                </ol>
+                                <p>Ha ganado numerosos premios franceses e internacionales de cine</p>
+                            </div>
+                        </li>
+                    </div>
+                </div>
+                <hr>
+
+
+                <hr>
+
+                <!-- Labels / tags -->
+                <div class="w3-card w3-margin" id="opinion">
+                    <div class="w3-container w3-padding">
+                        <h4>Cuestionario</h4>
+                    </div>
+                    <div class="w3-container w3-white">
+                        <form action="" method="get">
+                            <fieldset>
+                                <div>
+                                    <label for="Nombre">Nombre:
+                                        <input type="text" placeholder="Nombre" id="Nombre" required>
+                                    </label>
+
+                                </div>
+                                <div>
+                                    Argumento
+                                    <label><input type="radio" name="punt" id="punt1">Malo</label>
+                                    <label><input type="radio" name="punt" id="punt2">Decente</label>
+                                    <label><input type="radio" name="punt" id="punt3">Bueno</label>
+                                </div>
+                                <div>
+                                    <label for="personaje">¿Cuál es tu personaje favorito?</label>
+                                    <select id="personaje">
+                                        <option value="personaje1">Lucy</option>
+                                        <option value="personaje2">Samuel Norman</option>
+                                        <option value="personaje3">Sr.Jang</option>
+                                        <option value="personaje4">Pierre del Río</option>
+                                        <option value="personaje5">Profesor</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    ¿Recomendarías esta película?
+                                    <label><input type="radio" name="sino" id="sino1">Sí</label>
+                                    <label><input type="radio" name="sino" id="sino2">No</label>
+                                </div>
+                                <div>
+                                    ¿La duración de la película te parece correcto?
+                                    <label><input type="radio" name="opcion" id="opcion1">Sí</label>
+                                    <label><input type="radio" name="opcion" id="opcion2">No</label>
+                                </div>
+                                <div>
+                                    <label id="general">
+                                        Puntuacion general de la película
+                                        <div></div>
+                                        <input type="range">
+                                    </label>
+                                </div>
+                            </fieldset>
+                            <p>
+                                <input type="submit">
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="w3-card w3-margin" id="plataformasstreaming">
+                    <div class="w3-container w3-padding">
+                        <h4>Plataformas de Streaming</h4>
+                    </div>
+                    <div class="w3-container w3-white">
+                        <ul class="w3-ul w3-hoverable w3-white">
+                            <li class="w3-padding-16">
+                                <table>
+                                    <tr>
+                                        <th colspan="2"><a href="https://www.netflix.com/es/title/70307658"
+                                                target="_blank">Link 1</a></th>
+                                        <th>3'3/5</th>
+                                        <th>Suscripción a netflix</th>
+                                    </tr>
+                                </table>
+
+                            </li>
+                            <li class="w3-padding-16">
+                                <table>
+                                    <tr>
+                                        <th colspan="2"><a
+                                                href="https://www.primevideo.com/detail/Lucy/0ND7Y71UEBCZB0EV0P5ZAWWZBD?_encoding=UTF8&language=es_ES"
+                                                target="_blank">Link
+                                                2</a></th>
+                                        <th>Sin valoracion</th>
+                                        <th>3'99€</th>
+                                    </tr>
+                                </table>
+
+                            </li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+
+                <div class="w3-card-4 w3-margin w3-white" id="media">
+                    <div class="w3-container">
+                        <h3><b>Media</b></h3>
+                        <div>
+                            <img src="https://cdn.aarp.net/content/dam/aarp/entertainment/movies/2017/07/1140-scarlett-johansson-morgan-freeman-lucy-esp.jpg"
+                                width="100%">
+                            <img src="https://static2.abc.es/Media/201408/31/lucy%201--644x362.JPG" width="100%">
+                            <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2014/08/371832-critica-lucy-scarlett-johannson.jpg?itok=FNp5Hk5L"
+                            width="100%">
+                        </div>
+                            <h4>Trailer</h4>
+                            <div>
+                                <iframe width="100%" src="https://www.youtube.com/embed/-hpupbliDbk"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <h3>Video recomendación</h3>
+                            <div>
+                                <video width="100%" controls>
+                                    <source src="Video/Mi video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="w3-card-4 w3-margin w3-white" id="behindthescenes">
+                    <div class="w3-container">
+                        <h3><b>Behind the Scenes</b></h3>
+                            <div>
+                                <iframe width="100%" src="https://www.youtube.com/embed/ZIhaZHBQwKE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+                            </div>
+                    </div>
+                </div>
+
+                <!-- END GRID -->
+            </div><br>
+
+            <!-- END w3-content -->
         </div>
-      </div>
-    </div>
-  </div>
-  <hr>
 
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-  <img src="/w3images/bridge.jpg" alt="Norway" style="width:100%">
-    <div class="w3-container">
-      <h3><b>BLOG ENTRY</b></h3>
-      <h5>Title description, <span class="w3-opacity">April 2, 2014</span></h5>
-    </div>
-
-    <div class="w3-container">
-      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <div class="w3-row">
-        <div class="w3-col m8 s12">
-          <p><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></p>
-        </div>
-        <div class="w3-col m4 w3-hide-small">
-          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badge">2</span></span></p>
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- END BLOG ENTRIES -->
-</div>
-
-<!-- Introduction menu -->
-<div class="w3-col l4">
-  <!-- About Card -->
-  <div class="w3-card w3-margin w3-margin-top">
-  <img src="/w3images/avatar_g.jpg" style="width:100%">
-    <div class="w3-container w3-white">
-      <h4><b>My Name</b></h4>
-      <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
-    </div>
-  </div><hr>
-  
-  <!-- Posts -->
-  <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h4>Popular Posts</h4>
-    </div>
-    <ul class="w3-ul w3-hoverable w3-white">
-      <li class="w3-padding-16">
-        <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Lorem</span><br>
-        <span>Sed mattis nunc</span>
-      </li>
-      <li class="w3-padding-16">
-        <img src="/w3images/gondol.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Ipsum</span><br>
-        <span>Praes tinci sed</span>
-      </li> 
-      <li class="w3-padding-16">
-        <img src="/w3images/skies.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Dorum</span><br>
-        <span>Ultricies congue</span>
-      </li>   
-      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
-        <img src="/w3images/rock.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-        <span class="w3-large">Mingsum</span><br>
-        <span>Lorem ipsum dipsum</span>
-      </li>  
-    </ul>
-  </div>
-  <hr> 
- 
-  <!-- Labels / tags -->
-  <div class="w3-card w3-margin">
-    <div class="w3-container w3-padding">
-      <h4>Tags</h4>
-    </div>
-    <div class="w3-container w3-white">
-    <p><span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">London</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">DIY</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Family</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Shopping</span>
-      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Games</span>
-    </p>
-    </div>
-  </div>
-  
-<!-- END Introduction Menu -->
-</div>
-
-<!-- END GRID -->
-</div><br>
-
-<!-- END w3-content -->
-</div>
-
-<!-- Footer -->
-<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous</button>
-  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next »</button>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
+        <!-- Footer -->
+        <footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+            <p>Rebeca Noya Fernandez</p>
+        </footer>
 
 </body>
+
 </html>
